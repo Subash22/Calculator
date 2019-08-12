@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+header {
+  font-size: 40px;
+  background-color: green;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+.cointainer {
+  margin-top: 20px;
+  text-align: center;
+  .tips{
+    background-color: #2196F3;
+    padding: 7px 0;
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    #tips1{
+      font-style: normal;
+      font-weight: bold;
+      color: black;
+      text-shadow: 2px 2px 20px #fff;
+      font-size: 20px;
+    }
+    #tips2{
+      font-style: normal;
+      font-weight: bold;
+      text-shadow: 2px 2px 20px green;
+      font-size: 20px;
+    }
+  }
+  #input {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 3px;
+    padding: 0 13px;
+    font-size: 36px;
+  }
+  #result {
+    width: 300px;
+    height: 60px;
+    margin-bottom: 3px;
+    padding: 0 13px;
+    font-size: 36px;
+  }
+  #num {
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    width: 80px;
+    height: 70px;
+  }
+  #ac {
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    width: 330px;
+    height: 70px;
+  }
+}
